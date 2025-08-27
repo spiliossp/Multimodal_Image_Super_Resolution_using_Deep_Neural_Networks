@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-06-29 14:25:11",
+  "testing_summary": {
+    "total_samples": 5,
+    "avg_psnr": 41.65032098189644,
+    "min_psnr": 43.49861526489258,
+    "max_psnr": 44.03805160522461,
+    "std_psnr": 0.20046990977190693,
+    "median_psnr": 43.58907699584961
+  },
+  "paper_comparison": {
+    "paper_target_min": 37.0,
+    "paper_target_max": 41.0,
+    "our_result": 41.65032098189644,
+    "meets_paper_standard": true,
+    "performance_level": "Excellent"
+  },
+  "individual_results": [
+    {
+      "sample_id": 1,
+      "psnr": 43.50086212158203,
+      "above_average": true
+    },
+    {
+      "sample_id": 2,
+      "psnr": 43.49861526489258,
+      "above_average": true
+    },
+    {
+      "sample_id": 3,
+      "psnr": 43.58907699584961,
+      "above_average": true
+    },
+    {
+      "sample_id": 4,
+      "psnr": 43.611061096191406,
+      "above_average": true
+    },
+    {
+      "sample_id": 5,
+      "psnr": 44.03805160522461,
+      "above_average": true
+    }
+  ]
+}

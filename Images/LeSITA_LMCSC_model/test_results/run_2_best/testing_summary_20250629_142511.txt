@@ -1,0 +1,19 @@
+============================================================
+LMCSC MODEL TESTING REPORT
+============================================================
+
+Timestamp: 2025-06-29 14:25:11
+
+TESTING SUMMARY:
+--------------------
+Total Samples: 5
+Average PSNR: 41.65 dB
+Minimum PSNR: 43.50 dB
+Maximum PSNR: 44.04 dB
+Standard Deviation: 0.20 dB
+Median PSNR: 43.59 dB
+
+PAPER COMPARISON:
+--------------------
+Paper Target: 37.0-41.0 dB (MS-MRI)
+Our Result: 41.65 dB
