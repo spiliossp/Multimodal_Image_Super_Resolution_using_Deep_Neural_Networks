@@ -187,4 +187,4 @@ DEEP UNFOLDING APPROACH:
 
 Αυτό το έργο υλοποιήθηκε στο πλαίσιο διπλωματικής εργασίας. Για χρήση και διανομή, παρακαλώ επικοινωνήστε με τους συγγραφείς.
 
-KEYWORDS: Image Super-Resolution, Multimodal Medical Imaging, Sparse Representations, Deep Unfolding, Convolutional Sparse Coding, MRI, Interpretable AI
+KEYWORDS: Image Super-Resolution, Multimodal Medical Imaging, Sparse Representations, Deep Unfolding, Convolutional Sparse Coding, MRI, Interpretable AI, Aritificial Intelligence, Deep Neural Networks, Convolutional Neural Networks, Machine Learning, Optimization, Fine-tunning, Automated System, Data Enrichment, Data visualization.  
