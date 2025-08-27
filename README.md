@@ -1,7 +1,8 @@
 README - MULTIMODAL IMAGE SUPER RESOLUTION USING DEEP NEURAL NETWORKS
 
+Documentation Language: (1 - English, 2 - Ελληνικά)
 
-============================================================= English (1/2) =============================================================
+=========================   	English	(1/2)	    =============================
 
 ABSTRACT
 
@@ -193,7 +194,8 @@ This work was implemented as part of a diploma thesis. For use and distribution,
 
 KEYWORDS: Image Super-Resolution, Multimodal Medical Imaging, Sparse Representations, Deep Unfolding, Convolutional Sparse Coding, MRI, Interpretable AI, Aritificial Intelligence, Deep Neural Networks, Convolutional Neural Networks, Machine Learning, Optimization, Fine-tunning, Automated System, Data Enrichment, Data visualization.
 
-============================================================= Ελληνικά (2/2) =============================================================
+=========================   	Ελληνικά	(2/2)	    =============================
+
 ΠΕΡΙΛΗΨΗ
 
 Αυτή η διπλωματική εργασία αντιμετωπίζει το πρόβλημα της υπερανάλυσης ιατρικών εικόνων μαγνητικής τομογραφίας (MRI) μέσω μιας καινοτόμου προσέγγισης που συνδυάζει τη θεωρία των αραιών αναπαραστάσεων με τεχνικές βαθιάς αναδίπλωσης. Το σύστημα Learned Multimodal Convolutional Sparse Coding (LMCSC) υλοποιεί μια διπλού-κλάδου αρχιτεκτονική που αξιοποιεί τη συμπληρωματική πληροφορία από διαφορετικές MRI sequences για την παραγωγή εικόνων υψηλής ανάλυσης.

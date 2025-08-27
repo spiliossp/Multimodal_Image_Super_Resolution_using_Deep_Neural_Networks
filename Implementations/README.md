@@ -1,3 +1,5 @@
+README - IMPLEMENTATION DETAILS
+
 Documentation Language: (1 - English, 2 - Ελληνικά)
 
 =========================	English	(1/2)	=============================
