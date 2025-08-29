@@ -19,27 +19,26 @@ Multimodal_Image_Super_Resolution_using_Deep_Neural_Networks/
     README_multimodal_sr_en_gr.md
     Diploma_Thesis/ - Thesis document (PDF)
     Images/ - Image results folder
-        LISTA/ - Baseline LISTA results
-        CoEvolving_LeSITA_LMCSC_model/
-        LeSITA_LMCSC_model/
+        Convolutional_ACSC_model/ - Baseline LISTA results
+        CoEvolving_LMCSC_model/
+        Original_LMCSC_model/
     Implementations/ - Implementation code
-        Other/ - Auxiliary files
-        LISTA.ipynb
-        CoEvolving_LeSITA_scalable_logs.ipynb
-        Original_and_CoEvolving_LeSITA_basics.ipynb
-        Original_LeSITA.ipynb
+        Convolutional_LISTA_ACSC.ipynb
+        CoEvolving_LMCSC_scalable_logs.ipynb
+        Original_and_CoEvolving_LMCSC_basics.ipynb
+        Original_LMCSC.ipynb
         README_implementations_en_gr.md
 
 DETAILED MODEL STRUCTURE
 
-LISTA/ - Baseline single-modality implementation
+Convolutional_ACSC_model/ - Baseline single-modality implementation
 
-LeSITA_LMCSC_model/
+Original_LMCSC_model/
     50_test_cases/
     graphs/
     test_results/
 
-CoEvolving_LeSITA_LMCSC_model/
+CoEvolving_LMCSC_model/
     graphs/
     test_results/
 
@@ -54,22 +53,22 @@ REQUIREMENTS:
 INSTALLATION:
 1. git clone https://github.com/spiliossp/Multimodal_Image_Super_Resolution_using_Deep_Neural_Networks.git
 2. cd Multimodal_Image_Super_Resolution_using_Deep_Neural_Networks
-3. pip install -r requirements.txt
+3. pip install -r Implementations/requirements.txt
 
 USAGE:
 
 RECOMMENDED LEARNING SEQUENCE:
 1. Baseline LISTA:
-   jupyter notebook Implementation/LISTA.ipynb
+   jupyter notebook Implementations/Convolutional_LISTA_ACSC.ipynb
 
 2. Basic Multimodal Concepts:
-   jupyter notebook Implementation/Original_and_CoEvolving_LeSITA_basics.ipynb
+   jupyter notebook Implementations/Original_and_CoEvolving_LMCSC_basics.ipynb
 
-3. Original LeSITA Training:
-   jupyter notebook Implementation/Original_LeSITA.ipynb
+3. Original LMCSC Training:
+   jupyter notebook Implementations/Original_LMCSC.ipynb
 
-4. CoEvolving LeSITA Training:
-   jupyter notebook Implementation/CoEvolving_LeSITA_scalable_logs.ipynb
+4. CoEvolving LMCSC Training:
+   jupyter notebook Implementations/CoEvolving_LMCSC_scalable_logs.ipynb
 
 ARCHITECTURE
 
@@ -130,12 +129,12 @@ Contains results and visualizations from the models:
 - graphs/: Training plots (loss, PSNR, learning rate)
 - test_results/: Evaluation results and metrics
 
-IMPLEMENTATION FOLDER
+IMPLEMENTATIONS FOLDER
 Main implementation code:
-- LISTA.ipynb: Baseline single-modality implementation (FIRST STEP)
-- Original_and_CoEvolving_LeSITA_basics.ipynb: Comparison and analysis
-- Original_LeSITA.ipynb: Original LeSITA algorithm implementation
-- CoEvolving_LeSITA_scalable_logs.ipynb: CoEvolving version with logging
+- Convolutional_LISTA_ACSC.ipynb: Baseline single-modality implementation (FIRST STEP)
+- Original_and_CoEvolving_LMCSC_basics.ipynb: Comparison and analysis
+- Original_LMCSC.ipynb: Original LMCSC algorithm implementation
+- CoEvolving_LMCSC_scalable_logs.ipynb: CoEvolving version with logging
 
 DATASET
 
@@ -170,7 +169,6 @@ METHOD EVOLUTION:
 2. LeSITA: Multimodal with sequential processing (ACSC + LMCSC)
 3. CoEvolving: Advanced multimodal with parallel processing
 
-
 REFERENCES
 
 THESIS:
@@ -192,7 +190,7 @@ LICENSE
 
 This work was implemented as part of a diploma thesis. For use and distribution, please contact the authors.
 
-KEYWORDS: Image Super-Resolution, Multimodal Medical Imaging, Sparse Representations, Deep Unfolding, Convolutional Sparse Coding, MRI, Interpretable AI, Aritificial Intelligence, Deep Neural Networks, Convolutional Neural Networks, Machine Learning, Optimization, Fine-tunning, Automated System, Data Enrichment, Data visualization.
+KEYWORDS: Image Super-Resolution, Multimodal Medical Imaging, Sparse Representations, Deep Unfolding, Convolutional Sparse Coding, MRI, Interpretable AI, Artificial Intelligence, Deep Neural Networks, Convolutional Neural Networks, Machine Learning, Optimization, Fine-tuning, Automated System, Data Enrichment, Data Visualization.
 
 =========================   	Ελληνικά	(2/2)	    =============================
 
@@ -211,28 +209,27 @@ Multimodal_Image_Super_Resolution_using_Deep_Neural_Networks/
     README_multimodal_sr_en_gr.md
     Diploma_Thesis/ - Διπλωματική εργασία (PDF)
     Images/ - Φάκελος εικόνων
-        LISTA/ - Αποτελέσματα baseline LISTA
-        CoEvolving_LeSITA_LMCSC_model/
-        LeSITA_LMCSC_model/
+        Convolutional_ACSC_model/ - Αποτελέσματα Baseline LISTA
+        CoEvolving_LMCSC_model/
+        Original_LMCSC_model/
     Implementations/ - Κώδικας υλοποίησης
         Other/ - Βοηθητικά αρχεία
-        LISTA.ipynb
-        CoEvolving_LeSITA_scalable_logs.ipynb
-        Original_and_CoEvolving_LeSITA_basics.ipynb
-        Original_LeSITA.ipynb
+        Convolutional_LISTA_ACSC.ipynb
+        CoEvolving_LMCSC_scalable_logs.ipynb
+        Original_and_CoEvolving_LMCSC_basics.ipynb
+        Original_LMCSC.ipynb
         README_implementations_en_gr.md
 
-ΑΝΑΛΥΤΙΚΗ ΔΟΜΗ 
+ΑΝΑΛΥΤΙΚΗ ΔΟΜΗ
 
-LISTA/ - Baseline single-modality implementation
-    
+Convolutional_ACSC/ - Baseline single-modality implementation
 
-LeSITA_LMCSC_model/
+Original_LMCSC_model/
     50_test_cases/
     graphs/
     test_results/
 
-CoEvolving_LeSITA_LMCSC_model/
+CoEvolving_LMCSC_model/
     graphs/
     test_results/
 
@@ -247,22 +244,22 @@ CoEvolving_LeSITA_LMCSC_model/
 ΕΓΚΑΤΑΣΤΑΣΗ:
 1. git clone https://github.com/spiliossp/Multimodal_Image_Super_Resolution_using_Deep_Neural_Networks.git
 2. cd Multimodal_Image_Super_Resolution_using_Deep_Neural_Networks
-3. pip install -r requirements.txt
+3. pip install -r Implementations/requirements.txt
 
 ΧΡΗΣΗ:
 
 ΣΕΙΡΑ ΕΚΜΑΘΗΣΗΣ (Προτεινόμενη):
 1. Baseline LISTA:
-   jupyter notebook Implementation/LISTA.ipynb
+   jupyter notebook Implementations/Convolutional_LISTA_ACSC.ipynb
 
 2. Βασικές Έννοιες Multimodal:
-   jupyter notebook Implementation/Original_and_CoEvolving_LeSITA_basics.ipynb
+   jupyter notebook Implementations/Original_and_CoEvolving_LMCSC_basics.ipynb
 
-3. Εκπαίδευση Original LeSITA:
-   jupyter notebook Implementation/Original_LeSITA.ipynb
+3. Εκπαίδευση Original LMCSC:
+   jupyter notebook Implementations/Original_LMCSC.ipynb
 
-4. Εκπαίδευση CoEvolving LeSITA:
-   jupyter notebook Implementation/CoEvolving_LeSITA_scalable_logs.ipynb
+4. Εκπαίδευση CoEvolving LMCSC:
+   jupyter notebook Implementations/CoEvolving_LMCSC_scalable_logs.ipynb
 
 ΑΡΧΙΤΕΚΤΟΝΙΚΗ
 
@@ -270,7 +267,7 @@ BASELINE LISTA MODEL
 Single-Modality Approach - Επεξεργάζεται μόνο την εικόνα εισόδου χωρίς βοηθητική πληροφορία.
 
 ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ:
-- Μόνο ACSC module (Aproximate Convolutional Sparse Coding)
+- Μόνο ACSC module (Approximate Convolutional Sparse Coding)
 - Χωρίς side information
 - Θεμελιώδης υλοποίηση για κατανόηση της αρχιτεκτονικής
 - Απαραίτητο πρώτο βήμα εκμάθησης
@@ -295,7 +292,7 @@ Co-evolving Approach - Οι δύο τύποι αραιών αναπαραστά�
 ΑΠΟΤΕΛΕΣΜΑΤΑ
 
 ΠΟΣΟΤΙΚΑ ΑΠΟΤΕΛΕΣΜΑΤΑ:
-LISTA Baseline: ~35 dB PSNR, Single modality, Basic implementation
+LISTA Baseline: ~40.65 dB PSNR, Single modality, Basic implementation
 LeSITA LMCSC: 41.77 dB PSNR, 3 Στάδια, Sequential processing
 CoEvolving LMCSC: 41.36 dB PSNR, 2 Στάδια, Co-evolving architecture
 
@@ -304,7 +301,7 @@ BICUBIC: 28.5 dB
 SRCNN: 32.1 dB
 VDSR: 34.2 dB
 EDSR: 36.8 dB
-Our LISTA (Baseline): ~ 40.65 dB
+Our LISTA (Baseline): ~40.65 dB
 Our LMCSC: 41.77 dB
 
 TRAINING METRICS:
@@ -319,16 +316,16 @@ TRAINING METRICS:
 IMAGES FOLDER
 Περιέχει τα αποτελέσματα και οπτικοποιήσεις των models:
 - LISTA/: Baseline αποτελέσματα single-modality implementation (1 εικόνα)
-- 50_test_cases/: Περιπτώσεις ελέγχου για 50 θολωμένες εικόνες εισόδου χαμηλής ανάλυσης.
+- 50_test_cases/: Περιπτώσεις ελέγχου για 50 θολωμένες εικόνες εισόδου χαμηλής ανάλυσης
 - graphs/: Γραφικές παραστάσεις εκπαίδευσης (loss, PSNR, learning rate)
 - test_results/: Αποτελέσματα αξιολόγησης και metrics
 
-IMPLEMENTATION FOLDER
+IMPLEMENTATIONS FOLDER
 Ο κύριος κώδικας υλοποίησης:
-- LISTA.ipynb: Baseline single-modality implementation (ΠΡΩΤΟ ΒΗΜΑ)
-- Original_and_CoEvolving_LeSITA_basics.ipynb: Σύγκριση και ανάλυση
-- Original_LeSITA.ipynb: Υλοποίηση του αρχικού LeSITA algorithm
-- CoEvolving_LeSITA_scalable_logs.ipynb: CoEvolving έκδοση με logging
+- Convolutional_LISTA_ACSC.ipynb: Baseline single-modality implementation (ΠΡΩΤΟ ΒΗΜΑ)
+- Original_and_CoEvolving_LMCSC_basics.ipynb: Σύγκριση και ανάλυση
+- Original_LMCSC.ipynb: Υλοποίηση του αρχικού LMCSC algorithm
+- CoEvolving_LMCSC_scalable_logs.ipynb: CoEvolving έκδοση με logging
 
 DATASET
 
@@ -347,14 +344,14 @@ T2W/TARGET - High-res T2 (ground truth)
 
 PREPROCESSING PIPELINE:
 1. Κανονικοποίηση: [0,1] (διαίρεση με 255)
-2. Data Augmentation: 
+2. Εμπλουτισμός Δεδομένων: 
    - Rotations: 0°, 90°, 180°, 270°
    - Horizontal/Vertical flips
    - Synchronized augmentation που εφαρμόζεται και στους δύο τύπους εικόνων
 3. Batching: Αποδοτική επεξεργασία GPU
 
 DEEP UNFOLDING APPROACH:
-- ACSC Module: Aproximate Convolutional Sparse Coding για guidance
+- ACSC Module: Approximate Convolutional Sparse Coding για guidance
 - LMCSC Module: Learned Multimodal CSC με LeSITA operator
 - Reconstruction Module: Τελική ανασύνθεση εικόνας
 
@@ -375,7 +372,7 @@ DEEP UNFOLDING APPROACH:
 
 ΕΠΙΚΟΙΝΩΝΙΑ
 
-ΣΥΓΓΡΑΦΕΑΣ: Σπηλιόπουλος Σπήλιος  (sphliossp@gmail.com)
+ΣΥΓΓΡΑΦΕΑΣ: Σπηλιόπουλος Σπήλιος (sphliossp@gmail.com)
 ΕΠΙΒΛΕΠΩΝ: Παύλος-Λυσίμαχος Κόντης  
 ΣΥΝΕΙΣΦΟΡΕΣ: Ευαγγελία Τσιλιγιάννη
 ΙΔΡΥΜΑ: Πανεπιστήμιο Ιωαννίνων - Τμήμα Μηχ. Η/Υ & Πληροφορικής
@@ -385,4 +382,3 @@ DEEP UNFOLDING APPROACH:
 Αυτό το έργο υλοποιήθηκε στο πλαίσιο διπλωματικής εργασίας. Για χρήση και διανομή, παρακαλώ επικοινωνήστε με τους συγγραφείς.
 
 ΛΕΞΕΙΣ ΚΛΕΙΔΙΑ: Υπερανάλυση Εικόνας, Πολυτροπική Ιατρική Απεικόνιση, Αραιές Αναπαραστάσεις, Βαθιά Αναδίπλωση, Συνελικτική Αραιή Κωδικοποίηση, Μαγνητική Τομογραφία, Ερμηνεύσιμη Τεχνητή Νοημοσύνη, Τεχνητή Νοημοσύνη, Βαθιά Νευρωνικά Δίκτυα, Συνελικτικά Νευρωνικά Δίκτυα, Μηχανική Μάθηση, Βελτιστοποίηση, Λεπτοστόχαστη Ρύθμιση, Αυτοματοποιημένο Σύστημα, Εμπλουτισμός Δεδομένων, Οπτικοποίηση Δεδομένων
-
